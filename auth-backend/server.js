@@ -114,7 +114,7 @@ function authenticateToken(req,res,next){
 
     }
 }
-
+//api
 app.get('/api/profile',authenticateToken,async (req,res)=>{
     try{
         const userId=req.user.userId;
